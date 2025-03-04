@@ -43,3 +43,36 @@ align-items: center;
     font-weight: 500px;
 }
 
+/* Added new section */
+.brand{
+    width:50rem;
+    text-align: center;
+    margin:0 auto;
+    padding-top:80px;
+}
+.brand h2{
+    font-family:var(--font-family);
+    font-size:3.4rem;
+    font-weight: bold;
+    color:var(--primary-color);
+
+}
+.brand p{
+    font-family:var(--font-family);
+    font-size:0.9rem;
+    line-height:1.6rem;
+    font-weight: 400px;
+    color:var(--dark-3);
+    margin-top:15px;
+}
+.brand button{
+    background-color: rgba(255, 144, 14, 1);
+    color:rgba(255, 255, 255, 1);
+    font-size:1rem;
+    font-family:var(--font-family);
+    font-weight: 600px;
+    border-radius:8px;
+    padding:13px 10px;
+    margin-top:15px;
+    border:none;
+}
