@@ -86,7 +86,13 @@ max-width:71rem;
 }
 /* banner style  */
 .banner img{
-    width:71rem;
+    width:100%;
     padding-top:5px;
     padding-bottom:10px;
 } 
+/* responsive design  */
+@media screen  and ( max-width:576px){
+    .navbar , .nav-links{
+        flex-direction: column;
+    }
+}
