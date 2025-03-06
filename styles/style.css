@@ -137,9 +137,28 @@ font-weight:600px;
     .brand{
         width:100%;
     }
+    
+    .office-team{
+        grid-template-columns: repeat(1,250px);
+    } 
+    .feature-section{
+        flex-direction: column;
+    } 
+    .feature{
+width:50%;
+margin-top:40px;
+    }
+
 }
 @media screen and ( min-width:577px ) and ( max-width:850px){
    .brand{
     width:100%;
    } 
+   .feature-section{
+    flex-direction: column;
+} 
+.feature{
+    width:50%;
+    margin-top:40px;
+        }
 }
