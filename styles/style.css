@@ -150,6 +150,8 @@ margin-top:100px;
     font-weight: bold;
     width:350px;
     margin-bottom:20px;
+    border-left: 3px solid rgb(255, 142, 13) ;
+    padding-left:10px;
 }
 .love>p{
     color:var(--dark-3);
@@ -176,17 +178,25 @@ margin-bottom:10px;
     line-height: 26px;   
 }
 
+.btn-primary{
+    
+    
+}
 .btn-primary button{
+    position:relative;
+    bottom:90px;
+    left:20px;
+    width:246px;
     background-color: rgba(255, 144, 14, 1);
     color:rgba(255, 255, 255, 1);
-    padding:20px;
+    padding:20px 25px;
     border-radius:8px;
-    font-size:4rem;
-    line-height: 70px;
+    font-size:3rem;
+    line-height: 50px;
     font-weight: bold;
-  
+  border:none;
 }
-.btn-primary button span{
+.btn-primary p{
     font-size:1.3rem;
     font-weight: 600px;
 }
