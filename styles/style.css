@@ -126,6 +126,71 @@ font-weight:600px;
     align-items: center;
     margin-top:50px;
 }
+/* new section srt */
+.enjoy{
+  width:1320px;
+ height:690px;
+display:flex;
+justify-content: center;
+margin-top:100px;
+}
+.architect-image  img{
+   width:520px;
+   height: 790px;
+   margin-left:100px;
+}
+
+.love{
+    width:486px;
+    margin-top:10px;
+}
+.love h3{
+    color:var(--primary-color);
+    font-size:2.3rem;
+    font-weight: bold;
+    width:350px;
+    margin-bottom:20px;
+}
+.love>p{
+    color:var(--dark-3);
+    font-size:0.8rem;
+    margin-bottom:20px;
+}
+.version{
+ background-color: rgba(255, 255, 255, 1);
+ box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.19);
+ padding:20px;
+ margin:10px;
+
+}
+.version h4{
+font-size:1.1rem;
+color:var(--primary-color);
+font-weight: 600px;
+margin-bottom:10px;
+}
+.version p{
+    color:var(--dark-3);
+    font-size:0.78rem;
+    font-weight: 400px;
+    line-height: 26px;   
+}
+
+.btn-primary button{
+    background-color: rgba(255, 144, 14, 1);
+    color:rgba(255, 255, 255, 1);
+    padding:20px;
+    border-radius:8px;
+    font-size:4rem;
+    line-height: 70px;
+    font-weight: bold;
+  
+}
+.btn-primary button span{
+    font-size:1.3rem;
+    font-weight: 600px;
+}
+
 /* responsive design  */
 @media screen and (max-width:576px) {
     .menu{
