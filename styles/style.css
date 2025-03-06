@@ -13,6 +13,9 @@
     --dark-3:rgba(114, 114, 114, 1);
     --font-family:"Work Sans", sans-serif;
 } 
+body{
+    font-family:var(--font-family);
+}
 .header{
     background-color: rgb(255, 245, 232);
 }
@@ -65,7 +68,7 @@
     line-height: 26px;
     margin-bottom:20px;
 }
-.brand button{
+.brand button , .feature button{
     background-color: rgba(255, 144, 14, 1);
     color:rgba(255, 255, 255, 1);
     padding:13px 10px;
@@ -81,6 +84,47 @@
     display:flex;
     justify-content: center;
     padding-bottom:25px;
+}
+/* team image style  */
+.office-team{
+    display:grid;
+    grid-template-columns:repeat(2,250px);
+    gap:16px;
+}
+.office-team img{
+    width:250px;
+}
+.feature{
+    width:350px;
+    margin-left:50px;
+}
+.feature span{
+color:var(--dark-3);
+font-size:1.9rem;
+font-weight:600px;
+}
+.feature .sub-title{
+    color:rgba(255, 144, 14, 1);
+    font-weight:bold;
+}
+.feature h3 {
+    color:var(--primary-color);
+    font-size:1.9rem;
+    font-weight: bold;
+}
+.feature p{
+    color:var(--dark-3);
+    font-size:0.8rem;
+    font-weight: 400px;
+    line-height: 26px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.feature-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
 }
 /* responsive design  */
 @media screen and (max-width:576px) {
