@@ -12,87 +12,81 @@
     --secondary-color:rgba(66, 66, 66, 1);
     --dark-3:rgba(114, 114, 114, 1);
     --font-family:"Work Sans", sans-serif;
-}
-/* header style  */
+} 
 .header{
-background-color: rgba(255, 144, 14, 0.1);
-padding:25px 90px;
-/* max-width: 85rem; */
+    background-color: rgb(255, 245, 232);
 }
-/* navbar style */
-.navbar{
+.menu {
     display:flex;
     justify-content: space-between;
-align-items: center;
-max-width: 71rem;
-
+    align-items: center;
+    padding:15px 50px;
+    margin-bottom:50px;
 }
-.navbar h3{
-    font-family: var(--font-family);
-    color:var(--primary-color);
+.menu h3{
+    font-family:var(--font-family);
     font-size:2.1rem;
     font-weight: bold;
+    color:var(--primary-color);
+    
 }
 .nav-links{
     display:flex;
-    list-style: none;
 }
-.nav-links  li a{
-    text-decoration: none;
+.nav-links li {
+    list-style:none;
     margin:20px;
-    color:var(--secondary-color);
+}
+.nav-links li a {
     font-family:var(--font-family);
-    font-size:1rem;
-    font-weight: 500px;
+    font-size:1.12rem;
+    text-decoration:none;
+    color:var(--secondary-color);
+    line-height: 26px;
 }
-
-/* Added new section */
-.brand-section{
-max-width:71rem;
-}
+/* new section-one  */
 .brand{
-    width:50rem;
+    width:53rem;
     text-align: center;
-    margin:0 auto;
-    padding-top:80px;
-    /* max-width: 71rem; */
+ margin:0 auto;
 }
 .brand h2{
     font-family:var(--font-family);
-    font-size:3.4rem;
-    font-weight: bold;
     color:var(--primary-color);
-
+    font-size:3rem;
+    font-weight: bold;
+    margin-bottom:15px;
 }
 .brand p{
     font-family:var(--font-family);
     font-size:0.9rem;
-    line-height:1.6rem;
     font-weight: 400px;
     color:var(--dark-3);
-    margin-top:15px;
+    line-height: 26px;
+    margin-bottom:20px;
 }
 .brand button{
     background-color: rgba(255, 144, 14, 1);
     color:rgba(255, 255, 255, 1);
-    font-size:1rem;
-    font-family:var(--font-family);
-    font-weight: 600px;
-    border-radius:8px;
     padding:13px 10px;
-    margin-top:15px;
+    border-radius: 8px;
     border:none;
     margin-bottom:20px;
 }
-/* banner style  */
-.banner img{
-    width:100%;
-    padding-top:5px;
-    padding-bottom:10px;
-} 
 /* responsive design  */
-@media screen  and ( max-width:576px){
-    .navbar , .nav-links{
+@media screen and (max-width:576px) {
+    .menu{
         flex-direction: column;
     }
+    .nav-links{
+        flex-direction: column;
+    }
+    .brand{
+        width:100%;
+    }
+}
+@media screen and ( min-width:577px ) and ( max-width:850px){
+   .brand{
+    width:100%;
+   } 
 }
