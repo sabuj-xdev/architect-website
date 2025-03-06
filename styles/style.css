@@ -73,6 +73,15 @@
     border:none;
     margin-bottom:20px;
 }
+.banner img{
+    width:77%;
+    
+}
+.banner{
+    display:flex;
+    justify-content: center;
+    padding-bottom:25px;
+}
 /* responsive design  */
 @media screen and (max-width:576px) {
     .menu{
