@@ -261,11 +261,25 @@ margin-bottom:10px;
 .sponsor-cards{
     display:flex;
     justify-content: space-evenly;
+    margin-bottom:80px;
     
 }
 .sponsor-cards img{
     filter: grayscale(100%);
     width:100px;
+}
+/* end- description */
+.end-description{
+    width:820px;
+    background-color: rgb(255, 245, 232);
+    padding: 20px 40px;
+    text-align: center;
+    margin:0 auto;
+}
+.end-description p{
+    font-size: 0.8rem;
+    font-weight: 400px;
+    color:var(--secondary-color);
 }
 /* responsive design  */
 @media screen and (max-width:576px) {
