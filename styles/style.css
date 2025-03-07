@@ -199,7 +199,7 @@ margin-bottom:10px;
     font-weight: 600px;
 }
 .facts{
-  
+
     width:480px;
     margin-left:80px;
     margin-bottom:50px;
@@ -238,6 +238,34 @@ margin-bottom:10px;
 }
 .card-one h2 ,.card-two h2,.card-three h2 ,.card-four h2{
     color:rgba(66, 66, 66, 1);
+}
+/* footer style  */
+.sponsor{
+    width:450px;
+    margin: 0 auto;
+    margin-top:100px;
+    margin-bottom:50px;
+    text-align: center;
+}
+.sponsor h2{
+    font-size:2.2rem;
+    font-weight: bold;
+    color:var(--primary-color);
+    margin-bottom:20px;
+}
+.sponsor p{
+    font-size:0.8rem;
+    font-weight: 400px;
+    line-height: 26px;
+}
+.sponsor-cards{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.sponsor-cards img{
+    filter: grayscale(100%);
+    width:100px;
 }
 /* responsive design  */
 @media screen and (max-width:576px) {
@@ -281,9 +309,26 @@ margin-top:40px;
     /* margin-left:50px; */
     margin-top:10px;
  }
-
+ .facts{
+    margin:0 auto;
+    width:50%;
+ }
+ .cards{
+    margin-top:20px;
+    flex-direction: column;
+    align-items: center;
+ }
+ .sponsor{
+    width:50%;
+ }
+ .sponsor-cards{
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+ }
 }
-@media screen and ( min-width:577px ) and ( max-width:850px){
+
+@media screen and ( min-width:577px ) and ( max-width:1000px){
    .brand{
     width:100%;
    } 
